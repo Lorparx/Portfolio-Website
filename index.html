@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Head-->
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" />
-    <title>Laura Rose Parks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Laura Parks - Full Stack Web Developer Portfolio">
+    <title>Laura Rose Parks - Portfolio</title>
     <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
-    <link rel="shortcut icon" type="img/jpg" href="images/coding_icon.png">
+    <link rel="shortcut icon" type="image/png" href="images/coding_icon.png">
 </head>
-
-<!--Body-->
 
 <body class="Background">
 
@@ -38,15 +36,16 @@
         <strong>
             <p class="center">
                 <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
-                    <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute
-                    authority to arrange a stage or
+                    <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such
+                    absolute authority to arrange a stage or
                     <br>field of battle and to command such unswervingly dutiful actors or troops.
                 </q>
-                <br> -Joseph Weizenbaum
+                <br>-Joseph Weizenbaum
                 <br>
-                <br> My name is Laura, welcome to my portfolio website! On it, you can learn about my background, my skills, and my projects.
+                <br>My name is Laura, welcome to my portfolio website! On it, you can learn about my background, my
+                skills, and my projects.
                 <br>
-                <br> Thank you for stopping by and enjoy!
+                <br>Thank you for stopping by and enjoy!
             </p>
         </strong>
     </div>
@@ -105,7 +104,7 @@
     <!-- About -->
     <div class="Row" id="About">
         <div class="Column_2">
-            <img src="images/IMG_2192.jpg" alt="Replace with your own image and description">
+            <img src="images/IMG_2192.jpg" alt="Laura Parks profile photo">
         </div>
         <div class="Column_1">
             <h1>About</h1>
@@ -113,9 +112,9 @@
                 I am a newly minted coder and web developer with a passion for technology and a love of learning. 
                 <br>I have a background in food service and spent many 
                 years as a chef and restaurant manager. I am also a lifelong learner and enjoy learning new things, especially when it comes to technology.
-                <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech
-                    Academy</a>’s AI Developer Boot Camp(or I will be later this year), and trained and experienced in the following web and
-                programming languages: HTML, CSS, JavaScript, SQL, C# and more.
+                <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank" rel="noopener noreferrer">The Tech
+                    Academy</a>'s AI Developer Boot Camp, and trained and experienced in the following web and
+                programming languages: HTML, CSS, JavaScript, SQL, C# and more. I have experience building a chatbot and training it using Python and machine learning libraries.
                 <br>I am a full-stack developer and would love to work with you on your project. <a
                     href="#Contact">Contact</a> me below!
             </p>
@@ -129,12 +128,12 @@
             <p>
                 You can view my coding projects on my GitHub profile here:
                 <br>
-            <p class="center"><a href="https://github.com/lorparx" target="_blank">Lorparx's Github</a>
+            <p class="center"><a href="https://github.com/lorparx" target="_blank" rel="noopener noreferrer">Lorparx's Github</a>
             </p>
             </p>
         </div>
         <div class="Column_2">
-            <a href="https://github.com/lorparx" target="_blank"><img src="images/GitHub.png"
+            <a href="https://github.com/lorparx" target="_blank" rel="noopener noreferrer"><img src="images/GitHub.png"
                     alt="GitHub Logo"></a>
         </div>
     </div>
@@ -143,16 +142,16 @@
     <div id="Contact">
         <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
         <div class="form-popup" id="myForm">
-            <form action="" method="POST" class="form-container">
+            <form action="#" method="POST" class="form-container">
                 <h1>Contact</h1>
                 <label for="name"><b>Name</b></label>
-                <input type="text" placeholder="Type your name here" name="name" required>
+                <input type="text" placeholder="Type your name here" name="name" id="name" required>
                 <label for="phone"><b>Phone</b></label>
-                <input type="text" placeholder="Type your phone number here" name="phone">
+                <input type="text" placeholder="Type your phone number here" name="phone" id="phone">
                 <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Type your email address here" name="email" required>
+                <input type="email" placeholder="Type your email address here" name="email" id="email" required>
                 <label for="message"><b>Message</b></label>
-                <input type="text" placeholder="Type your message here" name="message">
+                <textarea placeholder="Type your message here" name="message" id="message" rows="4"></textarea>
                 <button type="submit" class="btn">SUBMIT</button>
                 <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
             </form>
@@ -161,10 +160,10 @@
 
     <!-- Footer -->
     <footer>
-        <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/"
-                target="_blank">The Tech Academy</a></p>
-        <br>
+        <p class="center">&copy; Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/"
+                target="_blank" rel="noopener noreferrer">The Tech Academy</a></p>
     </footer>
+
     <script src="js/portfolio.js"></script>
 </body>
 
